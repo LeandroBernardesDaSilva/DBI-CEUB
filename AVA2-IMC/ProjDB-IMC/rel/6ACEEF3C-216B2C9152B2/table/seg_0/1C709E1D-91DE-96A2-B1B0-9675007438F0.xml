@@ -1,0 +1,125 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C709E1D-91DE-96A2-B1B0-9675007438F0" name="ImcHistorico">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>6589F4CF-664E-5E99-62A0-B38FC48DB0BC</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataMedicao" id="FDE4222E-4305-067E-E578-75DA4BC20E86">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>188EA65C-F781-A6A9-7A14-438B420FD3AF</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="0955C6A0-5547-955F-6906-1463A55B44BB">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>D2521B95-E2D3-DC18-9566-990FA33DA9D1</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesoMedicao" id="E8CB68F2-FDCC-6BFD-A819-3E3292EF7A78">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>B1A0215F-84CC-5B3B-7BF5-C18CE686E5EF</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturaMedicao" id="37786730-97ED-01F2-6492-7CAB8D9D1034">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>2FF68AA0-9BDE-57B1-1C65-4A5F332D9A7F</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlrImcPessoa" id="8E802A15-DF58-B11D-A6BD-15BF4C647119">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>76772575-5969-6708-A5C3-C3DDA4188CD6</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseImcPessoa" id="AE34EE25-2665-7931-D4C8-99CBDAE39D17">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>6CEE4B38-87E2-58E3-CFC3-BC697C977AC2</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="User_cpfPessoa" id="626C720F-0218-04FD-B900-BB6CC2D62F29">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>05C2F559-90E6-2238-1309-526817C899E4</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="604B4D91-DC65-48B7-4875-FEF2876C5B3F" referredColumn="4ABB9138-3862-1A9A-BD04-1806CA116FFD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6E30FD42-1550-9297-C8F7-C64B4AE4889D" name="imcHistorico_PK">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>7FB20C53-2175-3FA1-4F78-13CA73DDB675</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FDE4222E-4305-067E-E578-75DA4BC20E86"/>
+<colUsage columnID="0955C6A0-5547-955F-6906-1463A55B44BB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D0FF27FD-F60A-C70C-3C11-EE0272258239" name="ImcHistorico_User_FK">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>B4D39F67-6DD6-8634-D6D4-55398D32AEDB</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="626C720F-0218-04FD-B900-BB6CC2D62F29"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

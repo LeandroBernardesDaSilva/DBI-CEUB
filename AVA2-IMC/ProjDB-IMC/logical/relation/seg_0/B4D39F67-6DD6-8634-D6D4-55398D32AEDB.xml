@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ImcHistorico User FK" directorySegmentName="seg_0" id="B4D39F67-6DD6-8634-D6D4-55398D32AEDB">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 22:59:07 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="6ACEEF3C-4928-D780-6DED-216B2C9152B2" value="true"/>
+</engineerTo>
+<sourcePk>BF702BB6-2AEB-4635-FA30-D6C4D1ABD1AE</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>82FD6515-C0F4-A353-E63E-5674CBDF0BCE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6589F4CF-664E-5E99-62A0-B38FC48DB0BC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

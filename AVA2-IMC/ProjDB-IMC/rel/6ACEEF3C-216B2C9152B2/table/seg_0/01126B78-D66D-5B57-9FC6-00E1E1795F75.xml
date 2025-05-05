@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="01126B78-D66D-5B57-9FC6-00E1E1795F75" name="User">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>82FD6515-C0F4-A353-E63E-5674CBDF0BCE</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfPessoa" id="4ABB9138-3862-1A9A-BD04-1806CA116FFD">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>66EFFCCB-9BB4-F8A8-72E3-5EC663F369CB</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomePessoa" id="86CFE45D-1BB2-FC69-226B-BB1DB0097A33">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>4AD83193-E893-B1F3-5F25-593B9822633C</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sexoPessoa" id="7DDD2AA2-03B7-A7E1-9764-2CA0DFDF76C3">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-29 00:31:30 UTC</createdTime>
+<generatorID>C79D7DC6-3ABD-3151-B08F-664D8707C864</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4229DDC6-B1C6-BF97-3A9C-93FF190D4261" name="usuario_PK">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 23:46:07 UTC</createdTime>
+<generatorID>BF702BB6-2AEB-4635-FA30-D6C4D1ABD1AE</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4ABB9138-3862-1A9A-BD04-1806CA116FFD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

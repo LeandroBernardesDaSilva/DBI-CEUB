@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="82FD6515-C0F4-A353-E63E-5674CBDF0BCE" name="User">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-07 23:48:04 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="6ACEEF3C-4928-D780-6DED-216B2C9152B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>User</preferredAbbreviation>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfPessoa" id="66EFFCCB-9BB4-F8A8-72E3-5EC663F369CB">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 22:37:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="6ACEEF3C-4928-D780-6DED-216B2C9152B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>11 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomePessoa" id="4AD83193-E893-B1F3-5F25-593B9822633C">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-07 23:49:00 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="6ACEEF3C-4928-D780-6DED-216B2C9152B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexoPessoa" id="C79D7DC6-3ABD-3151-B08F-664D8707C864">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-29 00:30:34 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="6ACEEF3C-4928-D780-6DED-216B2C9152B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="BF702BB6-2AEB-4635-FA30-D6C4D1ABD1AE" name="usuario PK">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-04-28 22:38:29 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6ACEEF3C-4928-D780-6DED-216B2C9152B2" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>66EFFCCB-9BB4-F8A8-72E3-5EC663F369CB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
