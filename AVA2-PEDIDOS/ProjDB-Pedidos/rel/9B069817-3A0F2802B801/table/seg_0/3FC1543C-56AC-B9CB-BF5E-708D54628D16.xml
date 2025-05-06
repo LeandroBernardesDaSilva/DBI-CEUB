@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3FC1543C-56AC-B9CB-BF5E-708D54628D16" name="EnderecoCliente">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:33:53 UTC</createdTime>
+<generatorID>FAA56276-F0FF-76A8-251F-F95264DDE237</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="endereco" id="B23FC84A-D215-C632-9AE4-2FFF58921585">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:33:53 UTC</createdTime>
+<generatorID>73A08E99-3808-9B7B-ECB5-DCE24D11CF09</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bairro" id="70FE7C6D-31BE-7100-7B93-FC4624B47761">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:33:53 UTC</createdTime>
+<generatorID>E53C3791-A356-8AE8-8122-09D5C79A8A30</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cidade" id="0BCF3469-4CFD-45F3-84C6-2AC1746B70F2">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:33:53 UTC</createdTime>
+<generatorID>F4CD4C6F-D698-561E-9CBA-43AC4E003080</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="5E117CD3-0596-6160-0886-D0527E9AEC60">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:33:53 UTC</createdTime>
+<generatorID>B6D31B3E-DB48-E803-C8A3-CA089A300C18</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="115D3BB8-8DAA-6740-3B32-EA47819767A5">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:33:53 UTC</createdTime>
+<generatorID>CCC290DC-C81F-A6C3-A5C6-444EC6C224A5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EnderecoCliente_ID" id="5E453B25-3EE1-76E6-6D3E-FF3B74C20CB0">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:33:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5525AAFA-34DB-43EE-4109-9A46059A098F" name="EnderecoCliente_PKv1">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:43:00 UTC</createdTime>
+<generatorID>F2470B6E-6203-99B5-9AA6-328E8712C142</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="115D3BB8-8DAA-6740-3B32-EA47819767A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B7401D7C-9A63-9DE3-2807-F684C8FCFC30" name="EnderecoCliente_PK">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:33:53 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="5E453B25-3EE1-76E6-6D3E-FF3B74C20CB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

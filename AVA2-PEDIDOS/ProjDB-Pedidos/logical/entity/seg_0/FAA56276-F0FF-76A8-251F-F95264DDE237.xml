@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FAA56276-F0FF-76A8-251F-F95264DDE237" name="EnderecoCliente">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-05 23:58:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9B069817-962D-ECA3-259E-3A0F2802B801" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="endereco" id="73A08E99-3808-9B7B-ECB5-DCE24D11CF09">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-05 23:58:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9B069817-962D-ECA3-259E-3A0F2802B801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="E53C3791-A356-8AE8-8122-09D5C79A8A30">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-05 23:59:01 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9B069817-962D-ECA3-259E-3A0F2802B801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="F4CD4C6F-D698-561E-9CBA-43AC4E003080">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-05 23:59:58 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9B069817-962D-ECA3-259E-3A0F2802B801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="B6D31B3E-DB48-E803-C8A3-CA089A300C18">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:00:52 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9B069817-962D-ECA3-259E-3A0F2802B801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="CCC290DC-C81F-A6C3-A5C6-444EC6C224A5">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:01:25 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9B069817-962D-ECA3-259E-3A0F2802B801" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F2470B6E-6203-99B5-9AA6-328E8712C142" name="EnderecoCliente PK">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-06 00:42:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="9B069817-962D-ECA3-259E-3A0F2802B801" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCC290DC-C81F-A6C3-A5C6-444EC6C224A5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
