@@ -1,0 +1,117 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5856936F-1FA3-A8FF-FC6C-518A5DF38B47" name="Dependente">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-19 23:39:33 UTC</createdTime>
+<generatorID>CAAC254B-A8DC-2863-95FF-693D2042A399</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfDependente" id="B10008CC-364D-621B-86AD-C29C057CBA09">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-19 23:46:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeDependente" id="4EB73C8A-E201-BAA2-8D63-948893B027BB">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-19 23:47:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nascimentoDependente" id="737F8041-167E-DF02-527C-049445F19184">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-19 23:47:37 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="0AF218EF-3ED5-A91E-7627-8ABBF785690A">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-20 00:26:21 UTC</createdTime>
+<generatorID>6F10388A-D55B-7DBB-9777-9CBC9FF18462</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" value="true"/>
+</engineerTo>
+<referedAttribute>B420B490-F8B0-C0DE-F4BC-D1FCCC30670C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="A40211F6-8199-EC72-4F4D-391001565A2B">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-20 00:26:21 UTC</createdTime>
+<generatorID>6F10388A-D55B-7DBB-9777-9CBC9FF18462</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" value="true"/>
+</engineerTo>
+<referedAttribute>702B44C3-E189-2715-F7A7-1B323326B548</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="30F368B9-FB88-C28A-C725-C7FBCAFEC476">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-20 00:29:16 UTC</createdTime>
+<generatorID>FF202AED-D8A7-18D4-17D9-4E4BD57C370D</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>8FC8D5A4-7B5E-6AAF-FB6F-7EA9DFA42E50</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DA195374-5D31-4FCC-3AD9-C766FDBB06F2" name="Dependente PK">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-19 23:47:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B10008CC-364D-621B-86AD-C29C057CBA09</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

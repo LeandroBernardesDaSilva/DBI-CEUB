@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CAAC254B-A8DC-2863-95FF-693D2042A399" name="Dependente">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-19 23:38:31 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<ordsAlias>table_5</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

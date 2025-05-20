@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C44E0249-2E28-17E1-5B98-D6138D000163" name="Endereco">
+<createdBy>leandro.bs</createdBy>
+<createdTime>2025-05-19 23:38:15 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+</Table>

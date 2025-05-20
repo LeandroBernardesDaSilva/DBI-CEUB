@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="206CC790-75B8-784D-9C73-652944931DB7" name="Telefone" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="21507D51-39DB-8D4A-7F4A-C005D57C077E" name="Clube" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="40578BF2-AC39-6135-0D46-6579F119C3EB" name="Titular" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="C44E0249-2E28-17E1-5B98-D6138D000163" name="Endereco" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Table" objectID="CAAC254B-A8DC-2863-95FF-693D2042A399" name="Dependente" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.relational.Table" propertyParentId="F2A76AC3-3013-3A2C-75D6-7DE344AF3F39" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>
